@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=2.0">
+
+<title>Cocacola Website Landing Page</title>
+	 
+<style>
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Nunito&display=swap');
+		 
+	 *{
+			margin: 0;
+			font-family: "poppins", sans-serif;
+			padding: 0;
+			box-sizing: border-box;
+			 
+		 }
+		 
+		 section{
+			 position: relative;
+			 width: auto;
+			 min-height: 100vh;
+			 padding: 100px;
+			 display: flex;
+			 justify-content: space-between;
+			 align-items: center;
+			 background: black;
+		 }
+		 
+		 section .circle{
+			 position: absolute;
+			 top: 0;
+			 left: 0;
+			 width: 100%;
+			 height: 100%;
+			 background: #e51e2a;
+			 clip-path: circle(70% at right -20%);
+		 }
+		 
+		 header{
+			 position: absolute;
+			 top: 0;
+			 left: 0;
+			 width:79%;
+			 padding: 40px 100px;
+			 justify-content: space-between;
+			 align-items: center;
+			 display: flex;
+		 }
+		 
+		 header .logo{
+			 position: relative;
+			 max-width: 150px;
+		 }
+		 
+		 header .navigation{
+			 position: relative;
+			 display: flex;
+		 }
+		 
+		 header .navigation li{
+			 list-style: none;
+		 }
+		 
+		 header .navigation li a{
+			 display: inline-block;
+			 color: #fff;
+			 font-weight: bold;
+			 text-decoration: none;
+			 margin-left: 40px;
+			 		 }
+		 
+		 .content{
+			 position: relative;
+			 width: 100%;
+			 display flex;
+			 justify-content: space-between;
+			 align-items: center;
+			 
+		 }
+		 
+		 .content .textBox{
+			 position: relative;
+			 max-width: 600px;
+			 margin-right: 20px;
+		 }
+		 
+		 .content .textBox h2{
+			 color: #fff;
+			 font-size: 3em;
+			 margin-bottom: 10px;
+			 line-height: 1.4em;
+			 font-weight: 700;
+		 }
+		 
+		 .content .textBox p{
+			 color: #fff;
+			 
+		 }
+		 
+		 .content .textBox a{
+			 display: inline-block;
+			 margin-top: 20px;
+			 margin-left: -1em;
+			 padding: 8px 20px;
+			 background: #e51e2a;
+			 text-decoration: none;
+			 color: white;
+			 border-radius: 40px;
+			 font-weight: bold;
+			 letter-spacing: 1px;
+		 }
+		 
+		 .sci{
+			 position: absolute;
+			 bottom: 40px;
+			 left: 100px;
+			 display:flex;
+			 justify-content: center;
+			 align-items: center;
+		 }
+		 
+		 .sci li{
+			 list-style: none;
+		 }
+		 
+		 .sci li a{
+			 display: inline-block;
+			 margin-left: 15px;
+			 background: #222;
+			 height: 50px;
+			 width: 50px;
+			 display: flex;
+			 justify-content: center;
+			 align-items: center;
+			 border-radius: 50%;
+			 transition: 0.2s ease-in-out;
+		 }
+		 
+		 .sci li a:hover{
+			 background: #e51e2a;
+			 transform: translateY(-10px);
+		 }
+		 
+		 .sci li a img{
+			 filter: invert(1);
+			 transform: scale(1.5);
+		 }
+	
+		.textBox li a{
+		 transition: 0.7s;
+		}
+	
+		.textBox li a:hover{
+		transform: scale(1.5);
+		 }
+	
+		.swiper {
+        width: 100%;
+        padding-top: 50px;
+		padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+     
+	
+	
+	
+	 </style>
+	
+	 
+	</head>	 
+<body>
+	<section>
+		<div class="circle"></div>
+	<header>
+	<a href="#"><img src="download.png" class="logo"></a>
+	<ul class="navigation">
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About Us</a></li>
+	<li><a href="#">Menu</a></li>
+	<li><a href="#">Contact Us</a></li>
+		
+	</ul>
+	</header>
+	<div class="content">
+		<div class="textBox">
+		<h2>Taste the Feeling</h2>
+		<p>ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+  parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+  pellentesque eu, pretium quis, sem.ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis
+  parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+  pellentesque eu, pretium quis, sem.</p>
+<li><a href="#">Learn More</a>
+	</li>
+		</div>	
+		<div class="imgBox">
+		</div>
+	</div>
+		
+	<ul class="sci">
+	<li><a href="#"><img src="Vector.png"></a></li>
+	<li><a href="#"><img src="Vector1.png"></a></li>
+	<li><a href="#"><img src="instagram-glyph-1 1.png"></a></li>
+	</ul>
+		
+	</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script><script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "flip",
+        grabCursor: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+</body>
+</html>
+	
